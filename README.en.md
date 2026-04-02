@@ -15,7 +15,7 @@ A **locally runnable version** repaired from the leaked Claude Code source, with
 - Full Ink TUI experience (matching the official Claude Code interface)
 - `--print` headless mode for scripts and CI
 - MCP server, plugin, and Skills support
-- Custom API endpoint and model support
+- Custom API endpoint and model support ([Third-Party Models Guide](docs/third-party-models.en.md))
 - Fallback Recovery CLI mode
 
 ---
@@ -87,7 +87,7 @@ Copy the example file and fill in your API key:
 cp .env.example .env
 ```
 
-Edit `.env`:
+Edit `.env` (the example below uses [MiniMax](https://platform.minimaxi.com/subscribe/token-plan?code=1TG2Cseab2&source=link) as the API provider — you can replace it with any compatible service):
 
 ```env
 # API authentication (choose one)
@@ -110,6 +110,20 @@ API_TIMEOUT_MS=3000000
 DISABLE_TELEMETRY=1
 CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 ```
+
+> **Tip**: You can also configure environment variables via the `env` field in `~/.claude/settings.json`. This is consistent with the official Claude Code configuration:
+>
+> ```json
+> {
+>   "env": {
+>     "ANTHROPIC_AUTH_TOKEN": "sk-xxx",
+>     "ANTHROPIC_BASE_URL": "https://api.minimaxi.com/anthropic",
+>     "ANTHROPIC_MODEL": "MiniMax-M2.7-highspeed"
+>   }
+> }
+> ```
+>
+> Priority: Environment variables > `.env` file > `~/.claude/settings.json`
 
 ### 4. Start
 

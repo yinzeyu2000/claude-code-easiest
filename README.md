@@ -15,7 +15,7 @@
 - 完整的 Ink TUI 交互界面（与官方 Claude Code 一致）
 - `--print` 无头模式（脚本/CI 场景）
 - 支持 MCP 服务器、插件、Skills
-- 支持自定义 API 端点和模型
+- 支持自定义 API 端点和模型（[第三方模型使用指南](docs/third-party-models.md)）
 - 降级 Recovery CLI 模式
 
 ---
@@ -87,7 +87,7 @@ bun install
 cp .env.example .env
 ```
 
-编辑 `.env`：
+编辑 `.env`（以下示例使用 [MiniMax](https://platform.minimaxi.com/subscribe/token-plan?code=1TG2Cseab2&source=link) 作为 API 提供商，也可替换为其他兼容服务）：
 
 ```env
 # API 认证（二选一）
@@ -110,6 +110,20 @@ API_TIMEOUT_MS=3000000
 DISABLE_TELEMETRY=1
 CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 ```
+
+> **提示**：除了 `.env` 文件，你也可以通过 `~/.claude/settings.json` 的 `env` 字段配置环境变量。这与官方 Claude Code 的配置方式一致：
+>
+> ```json
+> {
+>   "env": {
+>     "ANTHROPIC_AUTH_TOKEN": "sk-xxx",
+>     "ANTHROPIC_BASE_URL": "https://api.minimaxi.com/anthropic",
+>     "ANTHROPIC_MODEL": "MiniMax-M2.7-highspeed"
+>   }
+> }
+> ```
+>
+> 配置优先级：环境变量 > `.env` 文件 > `~/.claude/settings.json`
 
 ### 4. 启动
 
