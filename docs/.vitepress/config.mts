@@ -117,6 +117,7 @@ export default defineConfig({
   head: [
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-D42DM82263' }],
     ['script', {}, `window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-D42DM82263');`],
+    ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5210914487984731', crossorigin: 'anonymous' }],
   ],
 
   locales: {
