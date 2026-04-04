@@ -1,6 +1,5 @@
 # 环境变量说明
 
-<p align="right"><a href="./env-vars.en.md">English</a> | <a href="../../README.md">返回 README</a></p>
 
 | 变量 | 必填 | 说明 |
 |------|------|------|

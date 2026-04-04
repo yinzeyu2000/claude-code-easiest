@@ -1,6 +1,5 @@
 # 项目结构
 
-<p align="right"><a href="./project-structure.en.md">English</a> | <a href="../../README.md">返回 README</a></p>
 
 ```
 bin/claude-haha          # 入口脚本

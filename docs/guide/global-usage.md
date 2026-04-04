@@ -1,6 +1,5 @@
 # 全局使用（任意目录启动）
 
-<p align="right"><a href="./global-usage.en.md">English</a> | <a href="../../README.md">返回 README</a></p>
 
 如果你希望在任意项目目录直接运行 `claude-haha`，可以通过以下方式配置。配置完成后，`claude-haha` 会自动识别你当前所在的工作目录。
 

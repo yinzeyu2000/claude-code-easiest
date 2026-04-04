@@ -1,6 +1,5 @@
 # Project Structure
 
-<p align="right"><a href="./project-structure.md">中文</a> | <a href="../../README.en.md">Back to README</a></p>
 
 ```text
 bin/claude-haha          # Entry script

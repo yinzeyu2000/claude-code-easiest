@@ -1,6 +1,5 @@
 # Fixes Compared with the Original Leaked Source
 
-<p align="right"><a href="./fixes.md">中文</a> | <a href="../../README.en.md">Back to README</a></p>
 
 The leaked source could not run directly. This repository mainly fixes the following issues:
 

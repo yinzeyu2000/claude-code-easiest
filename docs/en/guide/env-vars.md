@@ -1,6 +1,5 @@
 # Environment Variables
 
-<p align="right"><a href="./env-vars.md">中文</a> | <a href="../../README.en.md">Back to README</a></p>
 
 | Variable | Required | Description |
 |------|------|------|

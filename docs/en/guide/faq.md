@@ -1,6 +1,5 @@
 # FAQ
 
-<p align="right"><a href="./faq.md">中文</a> | <a href="../../README.en.md">Back to README</a></p>
 
 ## Q: `undefined is not an object (evaluating 'usage.input_tokens')`
 
@@ -12,7 +11,7 @@ This project uses the **Anthropic Messages API protocol**. `ANTHROPIC_BASE_URL` 
 - OpenRouter: `ANTHROPIC_BASE_URL=https://openrouter.ai/api` ✅
 - OpenRouter (wrong): `ANTHROPIC_BASE_URL=https://openrouter.ai/anthropic` ❌ (returns HTML)
 
-If your model provider only supports the OpenAI protocol, you need a proxy like LiteLLM for protocol translation. See the [Third-Party Models Guide](./third-party-models.en.md).
+If your model provider only supports the OpenAI protocol, you need a proxy like LiteLLM for protocol translation. See the [Third-Party Models Guide](./third-party-models.md).
 
 ## Q: `Cannot find package 'bundle'`
 
@@ -32,4 +31,4 @@ bun upgrade
 
 This project only supports the Anthropic protocol. If your model provider doesn't natively support the Anthropic protocol, you need a proxy like [LiteLLM](https://github.com/BerriAI/litellm) for protocol translation (OpenAI → Anthropic).
 
-See the [Third-Party Models Guide](./third-party-models.en.md) for detailed setup instructions.
+See the [Third-Party Models Guide](./third-party-models.md) for detailed setup instructions.

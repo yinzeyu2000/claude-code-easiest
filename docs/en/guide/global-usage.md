@@ -1,6 +1,5 @@
 # Global Usage (Run from Any Directory)
 
-<p align="right"><a href="./global-usage.md">中文</a> | <a href="../../README.en.md">Back to README</a></p>
 
 If you want to run `claude-haha` directly from any project directory, set up one of the following. Once configured, `claude-haha` will automatically recognize your current working directory.
 

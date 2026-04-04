@@ -1,6 +1,5 @@
 # 相对于原始泄露源码的修复
 
-<p align="right"><a href="./fixes.en.md">English</a> | <a href="../../README.md">返回 README</a></p>
 
 泄露的源码无法直接运行，主要修复了以下问题：
 

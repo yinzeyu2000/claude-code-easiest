@@ -13,6 +13,7 @@
 [![License](https://img.shields.io/github/license/NanmiCoder/cc-haha)](https://github.com/NanmiCoder/cc-haha/blob/main/LICENSE)
 [![中文](https://img.shields.io/badge/🇨🇳_中文-Available-green)](README.md)
 [![English](https://img.shields.io/badge/🇺🇸_English-当前-blue)](README.en.md)
+[![Docs](https://img.shields.io/badge/📖_Documentation-Visit-D97757)](https://claudecodehaha.relakkesyang.org)
 
 </div>
 
@@ -21,7 +22,7 @@ A **locally runnable version** repaired from the leaked Claude Code source, with
 > The original leaked source does not run as-is. This repository fixes multiple blocking issues in the startup path so the full Ink TUI can work locally.
 
 <p align="center">
-  <a href="#features">Features</a> · <a href="#architecture-overview">Architecture</a> · <a href="#quick-start">Quick Start</a> · <a href="docs/guide/env-vars.en.md">Env Vars</a> · <a href="docs/guide/faq.en.md">FAQ</a> · <a href="docs/guide/global-usage.en.md">Global Usage</a> · <a href="#more-documentation">More Docs</a>
+  <a href="#features">Features</a> · <a href="#architecture-overview">Architecture</a> · <a href="#quick-start">Quick Start</a> · <a href="docs/en/guide/env-vars.md">Env Vars</a> · <a href="docs/en/guide/faq.md">FAQ</a> · <a href="docs/en/guide/global-usage.md">Global Usage</a> · <a href="#more-documentation">More Docs</a>
 </p>
 
 ---
@@ -31,8 +32,8 @@ A **locally runnable version** repaired from the leaked Claude Code source, with
 - Full Ink TUI experience (matching the official Claude Code interface)
 - `--print` headless mode for scripts and CI
 - MCP server, plugin, and Skills support
-- Custom API endpoint and model support ([Third-Party Models Guide](docs/guide/third-party-models.en.md))
-- **Computer Use desktop control** — [Guide](docs/features/computer-use.en.md)
+- Custom API endpoint and model support ([Third-Party Models Guide](docs/en/guide/third-party-models.md))
+- **Computer Use desktop control** — [Guide](docs/en/features/computer-use.md)
 - **Memory System** (cross-session persistent memory) — [Usage Guide](docs/memory/01-usage-guide.md)
 - **Multi-Agent System** (agent orchestration, parallel tasks, Teams collaboration) — [Usage Guide](docs/agent/01-usage-guide.md) | [Implementation](docs/agent/02-implementation.md)
 - **Skills System** (extensible capability plugins, custom workflows) — [Usage Guide](docs/skills/01-usage-guide.md) | [Implementation](docs/skills/02-implementation.md)
@@ -81,7 +82,7 @@ powershell -c "irm bun.sh/install.ps1 | iex"
 ```bash
 bun install
 cp .env.example .env
-# Edit .env with your API key — see docs/guide/env-vars.en.md for details
+# Edit .env with your API key — see docs/en/guide/env-vars.md for details
 ```
 
 ### 3. Start
@@ -108,7 +109,7 @@ bun --env-file=.env ./src/entrypoints/cli.tsx
 
 ### 4. Global Usage (Optional)
 
-Add `bin/` to your PATH to run from any directory. See [Global Usage Guide](docs/guide/global-usage.en.md):
+Add `bin/` to your PATH to run from any directory. See [Global Usage Guide](docs/en/guide/global-usage.md):
 
 ```bash
 export PATH="$HOME/path/to/claude-code-haha/bin:$PATH"
@@ -133,16 +134,16 @@ export PATH="$HOME/path/to/claude-code-haha/bin:$PATH"
 
 | Document | Description |
 |------|------|
-| [Environment Variables](docs/guide/env-vars.en.md) | Full env var reference and configuration methods |
-| [Third-Party Models](docs/guide/third-party-models.en.md) | Using OpenAI / DeepSeek / Ollama and other non-Anthropic models |
-| [Computer Use](docs/features/computer-use.en.md) | Desktop control (screenshots, mouse, keyboard) |
+| [Environment Variables](docs/en/guide/env-vars.md) | Full env var reference and configuration methods |
+| [Third-Party Models](docs/en/guide/third-party-models.md) | Using OpenAI / DeepSeek / Ollama and other non-Anthropic models |
+| [Computer Use](docs/en/features/computer-use.md) | Desktop control (screenshots, mouse, keyboard) |
 | [Memory System](docs/memory/01-usage-guide.md) | Cross-session persistent memory usage and implementation |
 | [Multi-Agent System](docs/agent/01-usage-guide.md) | Agent orchestration, parallel tasks and Teams collaboration |
 | [Skills System](docs/skills/01-usage-guide.md) | Extensible capability plugins, custom workflows and conditional activation |
-| [Global Usage](docs/guide/global-usage.en.md) | Run claude-haha from any directory |
-| [FAQ](docs/guide/faq.en.md) | Common error troubleshooting |
-| [Source Fixes](docs/reference/fixes.en.md) | Fixes compared with the original leaked source |
-| [Project Structure](docs/reference/project-structure.en.md) | Code directory structure |
+| [Global Usage](docs/en/guide/global-usage.md) | Run claude-haha from any directory |
+| [FAQ](docs/en/guide/faq.md) | Common error troubleshooting |
+| [Source Fixes](docs/en/reference/fixes.md) | Fixes compared with the original leaked source |
+| [Project Structure](docs/en/reference/project-structure.md) | Code directory structure |
 
 ---
 

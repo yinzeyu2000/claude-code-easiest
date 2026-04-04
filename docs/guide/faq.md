@@ -1,6 +1,5 @@
 # 常见问题
 
-<p align="right"><a href="./faq.en.md">English</a> | <a href="../../README.md">返回 README</a></p>
 
 ## Q: `undefined is not an object (evaluating 'usage.input_tokens')`
 
