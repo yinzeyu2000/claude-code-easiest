@@ -34,6 +34,7 @@ const zhSidebar = [
       { text: '概览', link: '/agent/' },
       { text: '使用指南', link: '/agent/01-usage-guide' },
       { text: '实现原理', link: '/agent/02-implementation' },
+      { text: 'Agent 框架解析', link: '/agent/03-agent-framework' },
     ],
   },
   {
@@ -88,6 +89,7 @@ const enSidebar = [
       { text: 'Overview', link: '/en/agent/' },
       { text: 'Usage Guide', link: '/en/agent/01-usage-guide' },
       { text: 'Implementation', link: '/en/agent/02-implementation' },
+      { text: 'Framework Deep Dive', link: '/en/agent/03-agent-framework' },
     ],
   },
   {
