@@ -17,10 +17,6 @@ A **locally runnable version** repaired from the leaked Claude Code source, with
 > The original leaked source does not run as-is. This repository fixes multiple blocking issues in the startup path so the full Ink TUI can work locally.
 
 <p align="center">
-  <img src="docs/images/00runtime.png" alt="Runtime screenshot" width="800">
-</p>
-
-<p align="center">
   <a href="#features">Features</a> · <a href="#architecture-overview">Architecture</a> · <a href="#quick-start">Quick Start</a> · <a href="docs/guide/env-vars.en.md">Env Vars</a> · <a href="docs/guide/faq.en.md">FAQ</a> · <a href="docs/guide/global-usage.en.md">Global Usage</a> · <a href="#more-documentation">More Docs</a>
 </p>
 
