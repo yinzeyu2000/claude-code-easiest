@@ -3,7 +3,7 @@
 > Let Claude Code orchestrate multiple specialized agents to handle complex tasks in parallel.
 
 <p align="center">
-<a href="#1-what-is-the-multi-agent-system">Multi-Agent System</a> · <a href="#2-six-built-in-agents">Six Built-in Agents</a> · <a href="#3-how-to-spawn-agents">Spawning Agents</a> · <a href="#4-background-task-management">Background Tasks</a> · <a href="#5-agent-teams--multi-agent-collaboration">Agent Teams</a> · <a href="#6-custom-agents">Custom Agents</a> · <a href="#7-permission-modes">Permission Modes</a> · <a href="#8-quick-reference">Quick Reference</a>
+<a href="#_1-what-is-the-multi-agent-system">Multi-Agent System</a> · <a href="#_2-six-built-in-agents">Six Built-in Agents</a> · <a href="#_3-how-to-spawn-agents">Spawning Agents</a> · <a href="#_4-background-task-management">Background Tasks</a> · <a href="#_5-agent-teams-—-multi-agent-collaboration">Agent Teams</a> · <a href="#_6-custom-agents">Custom Agents</a> · <a href="#_7-permission-modes">Permission Modes</a> · <a href="#_8-quick-reference">Quick Reference</a>
 </p>
 
 ![Multi-Agent System Overview](./images/01-agent-overview.png)

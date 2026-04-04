@@ -12,12 +12,6 @@ const zhSidebar = [
     ],
   },
   {
-    text: '功能',
-    items: [
-      { text: 'Computer Use', link: '/features/computer-use' },
-    ],
-  },
-  {
     text: '记忆系统',
     collapsed: false,
     items: [
@@ -46,6 +40,14 @@ const zhSidebar = [
     ],
   },
   {
+    text: 'Computer Use',
+    collapsed: false,
+    items: [
+      { text: '功能指南', link: '/features/computer-use' },
+      { text: '架构解析', link: '/features/computer-use-architecture' },
+    ],
+  },
+  {
     text: '参考',
     collapsed: true,
     items: [
@@ -64,12 +66,6 @@ const enSidebar = [
       { text: 'Third-Party Models', link: '/en/guide/third-party-models' },
       { text: 'Global Usage', link: '/en/guide/global-usage' },
       { text: 'FAQ', link: '/en/guide/faq' },
-    ],
-  },
-  {
-    text: 'Features',
-    items: [
-      { text: 'Computer Use', link: '/en/features/computer-use' },
     ],
   },
   {
@@ -98,6 +94,14 @@ const enSidebar = [
     items: [
       { text: 'Usage Guide', link: '/en/skills/01-usage-guide' },
       { text: 'Implementation', link: '/en/skills/02-implementation' },
+    ],
+  },
+  {
+    text: 'Computer Use',
+    collapsed: false,
+    items: [
+      { text: 'Guide', link: '/en/features/computer-use' },
+      { text: 'Architecture', link: '/en/features/computer-use-architecture' },
     ],
   },
   {

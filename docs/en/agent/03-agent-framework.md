@@ -3,7 +3,7 @@
 > Deconstructing the architecture behind the world's most popular AI code editor — from source code to design philosophy.
 
 <p align="center">
-<a href="#1-the-core-agent-loop">Core Loop</a> · <a href="#2-system-prompt-engineering">Prompt Engineering</a> · <a href="#3-tool-system-design">Tool System</a> · <a href="#4-context-management--compression">Context Management</a> · <a href="#5-skills--plugin-ecosystem">Skills & Plugins</a> · <a href="#6-permission--security-model">Permissions</a> · <a href="#7-fault-recovery-mechanisms">Recovery</a> · <a href="#8-how-it-differs-from-langchainreact">vs LangChain</a> · <a href="#9-why-claude-code-is-so-good">Why It Works</a>
+<a href="#_1-the-core-agent-loop">Core Loop</a> · <a href="#_2-system-prompt-engineering">Prompt Engineering</a> · <a href="#_3-tool-system-design">Tool System</a> · <a href="#_4-context-management-compression">Context Management</a> · <a href="#_5-skills-plugin-ecosystem">Skills & Plugins</a> · <a href="#_6-permission-security-model">Permissions</a> · <a href="#_7-fault-recovery-mechanisms">Recovery</a> · <a href="#_8-how-it-differs-from-langchain-react">vs LangChain</a> · <a href="#_9-why-claude-code-is-so-good">Why It Works</a>
 </p>
 
 ![Agent Framework Architecture Overview](./images/11-agent-framework-overview.png)

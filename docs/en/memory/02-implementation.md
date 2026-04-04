@@ -3,7 +3,7 @@
 > From system prompt injection to background auto-extraction, dissecting every technical detail of the memory system.
 
 <p align="center">
-<a href="#1-overall-architecture">Architecture</a> · <a href="#2-path-resolution-system">Path Resolution</a> · <a href="#3-system-prompt-injection">Prompt Injection</a> · <a href="#4-automatic-memory-extraction">Auto-Extraction</a> · <a href="#5-intelligent-memory-retrieval">Intelligent Retrieval</a> · <a href="#6-memory-scanning-in-detail">Memory Scanning</a> · <a href="#7-agent-memory">Agent Memory</a> · <a href="#8-team-memory-sync">Team Sync</a> · <a href="#9-key-constants-quick-reference">Constants</a> · <a href="#10-data-flow-overview">Data Flow</a>
+<a href="#_1-overall-architecture">Architecture</a> · <a href="#_2-path-resolution-system">Path Resolution</a> · <a href="#_3-system-prompt-injection">Prompt Injection</a> · <a href="#_4-automatic-memory-extraction">Auto-Extraction</a> · <a href="#_5-intelligent-memory-retrieval">Intelligent Retrieval</a> · <a href="#_6-memory-scanning-in-detail">Memory Scanning</a> · <a href="#_7-agent-memory">Agent Memory</a> · <a href="#_8-team-memory-sync">Team Sync</a> · <a href="#_9-key-constants-quick-reference">Constants</a> · <a href="#_10-data-flow-overview">Data Flow</a>
 </p>
 
 ![Implementation Architecture Overview](./images/05-architecture-overview.png)

@@ -3,7 +3,7 @@
 > Skills 是 Claude Code 的扩展能力引擎，让你用 Markdown 文件定义专属的自动化工作流。
 
 <p align="center">
-<a href="#一什么是-skills">Skills 是什么</a> · <a href="#二六种-skill-来源">六种来源</a> · <a href="#三skill-定义格式">定义格式</a> · <a href="#四调用方式">调用方式</a> · <a href="#五执行上下文">执行上下文</a> · <a href="#六条件激活">条件激活</a> · <a href="#七权限控制">权限控制</a> · <a href="#八快速参考">快速参考</a>
+<a href="#一、什么是-skills">Skills 是什么</a> · <a href="#二、六种-skill-来源">六种来源</a> · <a href="#三、skill-定义格式">定义格式</a> · <a href="#四、调用方式">调用方式</a> · <a href="#五、执行上下文">执行上下文</a> · <a href="#六、条件激活">条件激活</a> · <a href="#七、权限控制">权限控制</a> · <a href="#八、快速参考">快速参考</a>
 </p>
 
 ![Skills 系统概览](./images/01-skills-overview.png)

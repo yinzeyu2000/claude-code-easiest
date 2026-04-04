@@ -3,7 +3,7 @@
 > A deep dive into the architecture, spawn flow, context passing, and collaboration mechanisms of multi-agent orchestration.
 
 <p align="center">
-<a href="#1-architecture-overview">Architecture</a> · <a href="#2-agent-spawn-flow--four-paths">Spawn Flow</a> · <a href="#3-tool-pool-system--three-layer-filtering">Tool Pool</a> · <a href="#4-context-passing-mechanism">Context Passing</a> · <a href="#5-agent-teams-internals">Teams Internals</a> · <a href="#6-background-task-engine">Task Engine</a> · <a href="#7-dreamtask--automatic-memory-consolidation">DreamTask</a> · <a href="#8-worktree-isolation-implementation">Worktree Isolation</a> · <a href="#9-permission-synchronization">Permission Sync</a> · <a href="#10-agent-lifecycle-end-to-end-data-flow">Lifecycle Data Flow</a> · <a href="#11-key-source-file-index">Source Index</a> · <a href="#12-feature-flags">Feature Flags</a>
+<a href="#_1-architecture-overview">Architecture</a> · <a href="#_2-agent-spawn-flow-—-four-paths">Spawn Flow</a> · <a href="#_3-tool-pool-system-—-three-layer-filtering">Tool Pool</a> · <a href="#_4-context-passing-mechanism">Context Passing</a> · <a href="#_5-agent-teams-internals">Teams Internals</a> · <a href="#_6-background-task-engine">Task Engine</a> · <a href="#_7-dreamtask-—-automatic-memory-consolidation">DreamTask</a> · <a href="#_8-worktree-isolation-implementation">Worktree Isolation</a> · <a href="#_9-permission-synchronization">Permission Sync</a> · <a href="#_10-agent-lifecycle-end-to-end-data-flow">Lifecycle Data Flow</a> · <a href="#_11-key-source-file-index">Source Index</a> · <a href="#_12-feature-flags">Feature Flags</a>
 </p>
 
 ![Implementation Architecture Overview](./images/05-architecture.png)

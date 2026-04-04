@@ -3,7 +3,7 @@
 > A deep dive into how Skills are discovered, loaded, injected, executed, and managed.
 
 <p align="center">
-<a href="#1-overall-architecture">Architecture</a> · <a href="#2-skill-discovery-and-loading">Discovery & Loading</a> · <a href="#3-frontmatter-parsing">Frontmatter Parsing</a> · <a href="#4-skill-injection-into-conversations">Injection</a> · <a href="#5-skilltool-execution-engine">Execution Engine</a> · <a href="#6-fork-sub-agent-execution">Fork Execution</a> · <a href="#7-conditional-activation-and-dynamic-discovery">Conditional Activation</a> · <a href="#8-hook-integration">Hook Integration</a> · <a href="#9-permission-system">Permission System</a> · <a href="#10-complete-lifecycle">Complete Lifecycle</a> · <a href="#11-source-code-index">Source Index</a>
+<a href="#_1-overall-architecture">Architecture</a> · <a href="#_2-skill-discovery-and-loading">Discovery & Loading</a> · <a href="#_3-frontmatter-parsing">Frontmatter Parsing</a> · <a href="#_4-skill-injection-into-conversations">Injection</a> · <a href="#_5-skilltool-execution-engine">Execution Engine</a> · <a href="#_6-fork-sub-agent-execution">Fork Execution</a> · <a href="#_7-conditional-activation-and-dynamic-discovery">Conditional Activation</a> · <a href="#_8-hook-integration">Hook Integration</a> · <a href="#_9-permission-system">Permission System</a> · <a href="#_10-complete-lifecycle">Complete Lifecycle</a> · <a href="#_11-source-code-index">Source Index</a>
 </p>
 
 ![Skills Architecture Overview](./images/04-skills-architecture.png)
