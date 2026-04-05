@@ -40,6 +40,14 @@ const zhSidebar = [
     ],
   },
   {
+    text: 'Channel 系统',
+    collapsed: false,
+    items: [
+      { text: '概览', link: '/channel/' },
+      { text: '架构解析', link: '/channel/01-channel-system' },
+    ],
+  },
+  {
     text: 'Computer Use',
     collapsed: false,
     items: [
@@ -94,6 +102,14 @@ const enSidebar = [
     items: [
       { text: 'Usage Guide', link: '/en/skills/01-usage-guide' },
       { text: 'Implementation', link: '/en/skills/02-implementation' },
+    ],
+  },
+  {
+    text: 'Channel System',
+    collapsed: false,
+    items: [
+      { text: 'Overview', link: '/en/channel/' },
+      { text: 'Architecture', link: '/en/channel/01-channel-system' },
     ],
   },
   {
