@@ -46,7 +46,7 @@ All illustrations use dark background (#1a1a2e) with Anthropic brand copper-oran
 
 ### Plugin Developers
 
-1. Read the [Plugin Architecture](./01-channel-system.md#_7-plugin-channel-architecture) section
+1. Read the [Plugin Architecture](./01-channel-system.md#7-plugin-channel-architecture) section
 2. Understand the `plugin.json` Channel declaration format
 3. Implement the MCP Server `notifications/claude/channel` protocol
 4. Key source files:

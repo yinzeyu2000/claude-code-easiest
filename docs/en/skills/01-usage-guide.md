@@ -3,7 +3,7 @@
 > Skills are the extensible capability engine of Claude Code, allowing you to define custom automated workflows using Markdown files.
 
 <p align="center">
-<a href="#_1-what-are-skills">What Are Skills</a> · <a href="#_2-six-skill-sources">Six Sources</a> · <a href="#_3-skill-definition-format">Definition Format</a> · <a href="#_4-invocation-methods">Invocation</a> · <a href="#_5-execution-context">Execution Context</a> · <a href="#_6-conditional-activation">Conditional Activation</a> · <a href="#_7-permission-control">Permissions</a> · <a href="#_8-quick-reference">Quick Reference</a>
+<a href="#1-what-are-skills">What Are Skills</a> · <a href="#2-six-skill-sources">Six Sources</a> · <a href="#3-skill-definition-format">Definition Format</a> · <a href="#4-invocation-methods">Invocation</a> · <a href="#5-execution-context">Execution Context</a> · <a href="#6-conditional-activation">Conditional Activation</a> · <a href="#7-permission-control">Permissions</a> · <a href="#8-quick-reference">Quick Reference</a>
 </p>
 
 ![Skills System Overview](./images/01-skills-overview.png)

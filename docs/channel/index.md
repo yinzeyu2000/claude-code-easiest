@@ -46,7 +46,7 @@
 
 ### 插件开发者
 
-1. 阅读架构解析中的 [插件架构](./01-channel-system.md#七、插件-channel-架构) 章节
+1. 阅读架构解析中的 [插件架构](./01-channel-system.md#七插件-channel-架构) 章节
 2. 了解 `plugin.json` 中 Channel 声明格式
 3. 实现 MCP Server 的 `notifications/claude/channel` 协议
 4. 查看源码位置：

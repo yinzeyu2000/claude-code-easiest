@@ -3,7 +3,7 @@
 > 深度剖析 Skills 如何被发现、加载、注入、执行和管理。
 
 <p align="center">
-<a href="#一、整体架构">整体架构</a> · <a href="#二、skill-发现与加载">发现与加载</a> · <a href="#三、frontmatter-解析">Frontmatter 解析</a> · <a href="#四、skill-注入到对话">注入对话</a> · <a href="#五、skilltool-执行引擎">执行引擎</a> · <a href="#六、fork-子代理执行">Fork 执行</a> · <a href="#七、条件激活与动态发现">条件激活</a> · <a href="#八、hook-集成">Hook 集成</a> · <a href="#九、权限系统">权限系统</a> · <a href="#十、完整生命周期">完整生命周期</a> · <a href="#十一、源码索引">源码索引</a>
+<a href="#一整体架构">整体架构</a> · <a href="#二skill-发现与加载">发现与加载</a> · <a href="#三frontmatter-解析">Frontmatter 解析</a> · <a href="#四skill-注入到对话">注入对话</a> · <a href="#五skilltool-执行引擎">执行引擎</a> · <a href="#六fork-子代理执行">Fork 执行</a> · <a href="#七条件激活与动态发现">条件激活</a> · <a href="#八hook-集成">Hook 集成</a> · <a href="#九权限系统">权限系统</a> · <a href="#十完整生命周期">完整生命周期</a> · <a href="#十一源码索引">源码索引</a>
 </p>
 
 ![Skills 架构概览](./images/04-skills-architecture.png)

@@ -3,7 +3,7 @@
 > Claude 会"做梦"——在后台静默回顾近期会话，整合、更新、修剪记忆，就像人类睡眠中整理白天的记忆一样。
 
 <p align="center">
-<a href="#一、什么是-autodream">AutoDream</a> · <a href="#二、触发条件">触发条件</a> · <a href="#三、四阶段整合流程">整合流程</a> · <a href="#四、安全限制">安全限制</a> · <a href="#五、ui-展示">UI 展示</a> · <a href="#六、配置与开关">配置开关</a> · <a href="#七、与-extractmemories-的关系">对比</a> · <a href="#八、源码导航">源码导航</a>
+<a href="#一什么是-autodream">AutoDream</a> · <a href="#二触发条件">触发条件</a> · <a href="#三四阶段整合流程">整合流程</a> · <a href="#四安全限制">安全限制</a> · <a href="#五ui-展示">UI 展示</a> · <a href="#六配置与开关">配置开关</a> · <a href="#七与-extractmemories-的关系">对比</a> · <a href="#八源码导航">源码导航</a>
 </p>
 
 ![AutoDream 概览](./images/11-autodream-overview.png)

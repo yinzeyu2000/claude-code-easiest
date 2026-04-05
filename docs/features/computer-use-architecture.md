@@ -3,13 +3,13 @@
 > 深入解析 Computer Use 功能的底层实现：从 MCP 工具定义到 Python Bridge，从 9 层安全关卡到灰度控制绕过。
 
 <p align="center">
-<a href="#一、补丁环境总览">补丁环境</a> ·
-<a href="#二、分层架构">分层架构</a> ·
-<a href="#三、mcp-工具层">MCP 工具层</a> ·
-<a href="#四、安全关卡体系">安全关卡</a> ·
-<a href="#五、python-bridge-机制">Python Bridge</a> ·
-<a href="#六、截图-分析-操作闭环">交互闭环</a> ·
-<a href="#七、关键源文件索引">源文件索引</a>
+<a href="#一补丁环境总览">补丁环境</a> ·
+<a href="#二分层架构">分层架构</a> ·
+<a href="#三mcp-工具层">MCP 工具层</a> ·
+<a href="#四安全关卡体系">安全关卡</a> ·
+<a href="#五python-bridge-机制">Python Bridge</a> ·
+<a href="#六截图-分析-操作闭环">交互闭环</a> ·
+<a href="#七关键源文件索引">源文件索引</a>
 </p>
 
 ![Computer Use 整体架构](./images/01-computer-use-architecture.jpg)

@@ -3,13 +3,13 @@
 > A deep dive into the Computer Use implementation: from MCP tool definitions to Python Bridge, from 9-layer security gates to feature flag bypasses.
 
 <p align="center">
-<a href="#_1-patch-environment-overview">Patch Environment</a> ·
-<a href="#_2-layered-architecture">Layered Architecture</a> ·
-<a href="#_3-mcp-tool-layer">MCP Tool Layer</a> ·
-<a href="#_4-security-gate-system">Security Gates</a> ·
-<a href="#_5-python-bridge-mechanism">Python Bridge</a> ·
-<a href="#_6-screenshot-analyze-act-loop">Interaction Loop</a> ·
-<a href="#_7-key-source-file-index">Source File Index</a>
+<a href="#1-patch-environment-overview">Patch Environment</a> ·
+<a href="#2-layered-architecture">Layered Architecture</a> ·
+<a href="#3-mcp-tool-layer">MCP Tool Layer</a> ·
+<a href="#4-security-gate-system">Security Gates</a> ·
+<a href="#5-python-bridge-mechanism">Python Bridge</a> ·
+<a href="#6-screenshot-analyze-act-loop">Interaction Loop</a> ·
+<a href="#7-key-source-file-index">Source File Index</a>
 </p>
 
 ![Computer Use Architecture Overview](./images/01-computer-use-architecture.jpg)

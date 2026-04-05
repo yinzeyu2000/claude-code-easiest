@@ -3,7 +3,7 @@
 > Claude "dreams" -- silently reviewing recent sessions in the background to consolidate, update, and prune memories, much like the human brain organizes memories during sleep.
 
 <p align="center">
-<a href="#_1-what-is-autodream">AutoDream</a> · <a href="#_2-trigger-conditions">Trigger Conditions</a> · <a href="#_3-four-phase-consolidation-process">Consolidation Process</a> · <a href="#_4-security-restrictions">Security</a> · <a href="#_5-ui-presentation">UI</a> · <a href="#_6-configuration-and-toggles">Configuration</a> · <a href="#_7-relationship-with-extractmemories">Comparison</a> · <a href="#_8-source-code-navigation">Source Code</a>
+<a href="#1-what-is-autodream">AutoDream</a> · <a href="#2-trigger-conditions">Trigger Conditions</a> · <a href="#3-four-phase-consolidation-process">Consolidation Process</a> · <a href="#4-security-restrictions">Security</a> · <a href="#5-ui-presentation">UI</a> · <a href="#6-configuration-and-toggles">Configuration</a> · <a href="#7-relationship-with-extractmemories">Comparison</a> · <a href="#8-source-code-navigation">Source Code</a>
 </p>
 
 ![AutoDream Overview](./images/11-autodream-overview.png)

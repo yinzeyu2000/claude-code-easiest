@@ -3,7 +3,7 @@
 > Let Claude Code remember who you are, what you prefer, and what's happening in your project across sessions.
 
 <p align="center">
-<a href="#_1-what-is-the-memory-system">Memory System</a> · <a href="#_2-four-memory-types">Four Memory Types</a> · <a href="#_3-how-to-trigger-memory-saving">Trigger Saving</a> · <a href="#_4-where-are-memories-stored">Storage Location</a> · <a href="#_5-how-to-manage-memories">Manage Memories</a> · <a href="#_6-memory-lifecycle">Lifecycle</a> · <a href="#_7-quick-reference">Quick Reference</a>
+<a href="#1-what-is-the-memory-system">Memory System</a> · <a href="#2-four-memory-types">Four Memory Types</a> · <a href="#3-how-to-trigger-memory-saving">Trigger Saving</a> · <a href="#4-where-are-memories-stored">Storage Location</a> · <a href="#5-how-to-manage-memories">Manage Memories</a> · <a href="#6-memory-lifecycle">Lifecycle</a> · <a href="#7-quick-reference">Quick Reference</a>
 </p>
 
 ![Memory System Overview](./images/01-memory-overview.png)

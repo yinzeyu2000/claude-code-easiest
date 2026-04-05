@@ -3,16 +3,16 @@
 > 从源码视角深度剖析 Claude Code 如何通过 IM 平台远程控制 Agent
 
 <p align="center">
-<a href="#一、什么是-channel">概念</a> ·
-<a href="#二、整体架构">架构</a> ·
-<a href="#三、消息协议">协议</a> ·
-<a href="#四、六层访问控制">访问控制</a> ·
-<a href="#五、权限中继系统">权限中继</a> ·
-<a href="#六、ui-组件">UI</a> ·
-<a href="#七、插件-channel-架构">插件</a> ·
-<a href="#八、安全设计">安全</a> ·
-<a href="#九、命令行接口">CLI</a> ·
-<a href="#十、特性开关与分析">特性开关</a>
+<a href="#一什么是-channel">概念</a> ·
+<a href="#二整体架构">架构</a> ·
+<a href="#三消息协议">协议</a> ·
+<a href="#四六层访问控制">访问控制</a> ·
+<a href="#五权限中继系统">权限中继</a> ·
+<a href="#六ui-组件">UI</a> ·
+<a href="#七插件-channel-架构">插件</a> ·
+<a href="#八安全设计">安全</a> ·
+<a href="#九命令行接口">CLI</a> ·
+<a href="#十特性开关与分析">特性开关</a>
 </p>
 
 ![Channel System Overview](./images/01-channel-overview.png)

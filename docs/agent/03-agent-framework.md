@@ -3,7 +3,7 @@
 > 从源码视角剖析全球最流行 AI Code Editor 背后的 Agent 架构设计哲学。
 
 <p align="center">
-<a href="#一、核心-agent-循环">核心循环</a> · <a href="#二、系统提示词工程">提示词工程</a> · <a href="#三、工具系统设计">工具系统</a> · <a href="#四、上下文管理与压缩">上下文管理</a> · <a href="#五、技能与插件生态">技能与插件</a> · <a href="#六、权限与安全体系">权限与安全</a> · <a href="#七、故障恢复机制">故障恢复</a> · <a href="#八、与-langchain-react-的本质区别">对比分析</a> · <a href="#九、为什么-claude-code-能做到这么好">成功之道</a>
+<a href="#一核心-agent-循环">核心循环</a> · <a href="#二系统提示词工程">提示词工程</a> · <a href="#三工具系统设计">工具系统</a> · <a href="#四上下文管理与压缩">上下文管理</a> · <a href="#五技能与插件生态">技能与插件</a> · <a href="#六权限与安全体系">权限与安全</a> · <a href="#七故障恢复机制">故障恢复</a> · <a href="#八与-langchain-react-的本质区别">对比分析</a> · <a href="#九为什么-claude-code-能做到这么好">成功之道</a>
 </p>
 
 ![Agent 框架架构总览](./images/11-agent-framework-overview.png)

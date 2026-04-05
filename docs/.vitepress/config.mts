@@ -1,5 +1,19 @@
 import { defineConfig } from 'vitepress'
 
+// GitHub-compatible slugify (matches github-slugger algorithm)
+// Makes heading anchor IDs consistent between VitePress and GitHub rendering
+function slugify(str: string): string {
+  return str
+    .replace(/<[^>]*>/g, '')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&')
+    .trim()
+    .toLowerCase()
+    .replace(/[^\p{L}\p{M}\p{N}\p{Pc}\- ]/gu, '')
+    .replace(/ /g, '-')
+}
+
 const zhSidebar = [
   {
     text: '快速开始',
@@ -135,6 +149,12 @@ export default defineConfig({
   description: '基于 Claude Code 泄露源码修复的本地可运行版本，支持接入任意 Anthropic 兼容 API',
   lastUpdated: true,
   base: '/',
+
+  markdown: {
+    anchor: {
+      slugify,
+    },
+  },
 
   head: [
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-D42DM82263' }],

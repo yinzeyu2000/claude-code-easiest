@@ -3,16 +3,16 @@
 > A deep dive into how Claude Code enables remote Agent control via IM platforms
 
 <p align="center">
-<a href="#_1-what-is-a-channel">Concepts</a> ·
-<a href="#_2-architecture-overview">Architecture</a> ·
-<a href="#_3-message-protocol">Protocol</a> ·
-<a href="#_4-six-layer-access-control">Access Control</a> ·
-<a href="#_5-permission-relay-system">Permission Relay</a> ·
-<a href="#_6-ui-components">UI</a> ·
-<a href="#_7-plugin-channel-architecture">Plugins</a> ·
-<a href="#_8-security-design">Security</a> ·
-<a href="#_9-command-line-interface">CLI</a> ·
-<a href="#_10-feature-flags-and-analytics">Feature Flags</a>
+<a href="#1-what-is-a-channel">Concepts</a> ·
+<a href="#2-architecture-overview">Architecture</a> ·
+<a href="#3-message-protocol">Protocol</a> ·
+<a href="#4-six-layer-access-control">Access Control</a> ·
+<a href="#5-permission-relay-system">Permission Relay</a> ·
+<a href="#6-ui-components">UI</a> ·
+<a href="#7-plugin-channel-architecture">Plugins</a> ·
+<a href="#8-security-design">Security</a> ·
+<a href="#9-command-line-interface">CLI</a> ·
+<a href="#10-feature-flags-and-analytics">Feature Flags</a>
 </p>
 
 ![Channel System Overview](./images/01-channel-overview.png)
