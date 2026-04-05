@@ -36,6 +36,7 @@ A **locally runnable version** repaired from the leaked Claude Code source, with
 - **Memory System** (cross-session persistent memory) — [Usage Guide](docs/memory/01-usage-guide.md)
 - **Multi-Agent System** (agent orchestration, parallel tasks, Teams collaboration) — [Usage Guide](docs/agent/01-usage-guide.md) | [Implementation](docs/agent/02-implementation.md)
 - **Skills System** (extensible capability plugins, custom workflows) — [Usage Guide](docs/skills/01-usage-guide.md) | [Implementation](docs/skills/02-implementation.md)
+- **Channel System** (remote Agent control via Telegram/Feishu/Discord IM platforms) — [Architecture](docs/en/channel/01-channel-system.md)
 - **Computer Use desktop control** — [Guide](docs/en/features/computer-use.md) | [Architecture](docs/en/features/computer-use-architecture.md)
 - Fallback Recovery CLI mode (`CLAUDE_CODE_FORCE_RECOVERY_CLI=1 ./bin/claude-haha`)
 
@@ -139,6 +140,7 @@ export PATH="$HOME/path/to/claude-code-haha/bin:$PATH"
 | [Memory System](docs/memory/01-usage-guide.md) | Cross-session persistent memory usage and implementation |
 | [Multi-Agent System](docs/agent/01-usage-guide.md) | Agent orchestration, parallel tasks and Teams collaboration |
 | [Skills System](docs/skills/01-usage-guide.md) | Extensible capability plugins, custom workflows and conditional activation |
+| [Channel System](docs/en/channel/01-channel-system.md) | Remote Agent control via Telegram/Feishu/Discord IM platforms |
 | [Computer Use](docs/en/features/computer-use.md) | Desktop control (screenshots, mouse, keyboard) — [Architecture](docs/en/features/computer-use-architecture.md) |
 | [Global Usage](docs/en/guide/global-usage.md) | Run claude-haha from any directory |
 | [FAQ](docs/en/guide/faq.md) | Common error troubleshooting |
