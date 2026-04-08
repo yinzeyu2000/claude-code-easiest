@@ -83,8 +83,8 @@ powershell -c "irm bun.sh/install.ps1 | iex"
 
 ```bash
 bun install
-cp .env.example .env
-# 编辑 .env 填入你的 API Key，详见 docs/guide/env-vars.md
+code .env.example
+# 也可直接点击env. 文件编辑，填入你的 API Key，详见 docs/guide/env-vars.md
 ```
 
 ### 3. 启动
