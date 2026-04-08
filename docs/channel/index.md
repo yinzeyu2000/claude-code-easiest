@@ -77,7 +77,7 @@
 
 ## 相关资源
 
-- [Claude Code Haha 主页](/)
+- [Claude Code Easiest 主页](/)
 - [Agent 框架解析](/agent/03-agent-framework)
 - [Skills 系统文档](/skills/01-usage-guide)
-- [GitHub Issues](https://github.com/NanmiCoder/cc-haha/issues)
+- [GitHub Issues](https://github.com/yinzeyu2000/claude-code-easiest/issues)

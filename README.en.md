@@ -1,16 +1,16 @@
-# Claude Code Haha
+# Claude Code Easiest
 
 <p align="center">
-  <img src="docs/images/banner.jpg" alt="Claude Code Haha Banner" width="800">
+  <img src="docs/images/banner.jpg" alt="Claude Code Easiest Banner" width="800">
 </p>
 
 <div align="center">
 
-[![GitHub Stars](https://img.shields.io/github/stars/NanmiCoder/cc-haha?style=social)](https://github.com/NanmiCoder/cc-haha/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/NanmiCoder/cc-haha?style=social)](https://github.com/NanmiCoder/cc-haha/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/NanmiCoder/cc-haha)](https://github.com/NanmiCoder/cc-haha/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/NanmiCoder/cc-haha)](https://github.com/NanmiCoder/cc-haha/pulls)
-[![License](https://img.shields.io/github/license/NanmiCoder/cc-haha)](https://github.com/NanmiCoder/cc-haha/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/yinzeyu2000/claude-code-easiest?style=social)](https://github.com/yinzeyu2000/claude-code-easiest/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/yinzeyu2000/claude-code-easiest?style=social)](https://github.com/yinzeyu2000/claude-code-easiest/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/yinzeyu2000/claude-code-easiest)](https://github.com/yinzeyu2000/claude-code-easiest/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yinzeyu2000/claude-code-easiest)](https://github.com/yinzeyu2000/claude-code-easiest/pulls)
+[![License](https://img.shields.io/github/license/yinzeyu2000/claude-code-easiest)](https://github.com/yinzeyu2000/claude-code-easiest/blob/main/LICENSE)
 [![中文](https://img.shields.io/badge/🇨🇳_中文-Available-green)](README.md)
 [![English](https://img.shields.io/badge/🇺🇸_English-当前-blue)](README.en.md)
 [![Docs](https://img.shields.io/badge/📖_Documentation-Visit-D97757)](https://claudecode-haha.relakkesyang.org)
@@ -33,12 +33,13 @@ A **locally runnable version** repaired from the leaked Claude Code source, with
 - `--print` headless mode for scripts and CI
 - MCP server, plugin, and Skills support
 - Custom API endpoint and model support ([Third-Party Models Guide](docs/en/guide/third-party-models.md))
+- **Custom Avatar System** (🐱 Cat, 🐘 Elephant, 🦍 Ape, 🐶 Dog, user-customizable) — [Usage Guide](docs/en/guide/custom-avatar.md)
 - **Memory System** (cross-session persistent memory) — [Usage Guide](docs/memory/01-usage-guide.md)
 - **Multi-Agent System** (agent orchestration, parallel tasks, Teams collaboration) — [Usage Guide](docs/agent/01-usage-guide.md) | [Implementation](docs/agent/02-implementation.md)
 - **Skills System** (extensible capability plugins, custom workflows) — [Usage Guide](docs/skills/01-usage-guide.md) | [Implementation](docs/skills/02-implementation.md)
 - **Channel System** (remote Agent control via Telegram/Feishu/Discord IM platforms) — [Architecture](docs/en/channel/01-channel-system.md)
 - **Computer Use desktop control** — [Guide](docs/en/features/computer-use.md) | [Architecture](docs/en/features/computer-use-architecture.md)
-- Fallback Recovery CLI mode (`CLAUDE_CODE_FORCE_RECOVERY_CLI=1 ./bin/claude-haha`)
+- Fallback Recovery CLI mode (`CLAUDE_CODE_FORCE_RECOVERY_CLI=1 ./bin/claude-easiest`)
 
 ---
 
@@ -91,9 +92,9 @@ cp .env.example .env
 #### macOS / Linux
 
 ```bash
-./bin/claude-haha                          # Interactive TUI mode
-./bin/claude-haha -p "your prompt here"    # Headless mode
-./bin/claude-haha --help                   # Show all options
+./bin/claude-easiest                          # Interactive TUI mode
+./bin/claude-easiest -p "your prompt here"    # Headless mode
+./bin/claude-easiest --help                   # Show all options
 ```
 
 #### Windows
@@ -105,7 +106,7 @@ cp .env.example .env
 bun --env-file=.env ./src/entrypoints/cli.tsx
 
 # Or run inside Git Bash
-./bin/claude-haha
+./bin/claude-easiest
 ```
 
 ### 4. Global Usage (Optional)
@@ -113,7 +114,7 @@ bun --env-file=.env ./src/entrypoints/cli.tsx
 Add `bin/` to your PATH to run from any directory. See [Global Usage Guide](docs/en/guide/global-usage.md):
 
 ```bash
-export PATH="$HOME/path/to/claude-code-haha/bin:$PATH"
+export PATH="$HOME/path/to/claude-code-easiest/bin:$PATH"
 ```
 
 ---
@@ -136,13 +137,14 @@ export PATH="$HOME/path/to/claude-code-haha/bin:$PATH"
 | Document | Description |
 |------|------|
 | [Environment Variables](docs/en/guide/env-vars.md) | Full env var reference and configuration methods |
+| [Custom Avatar](docs/en/guide/custom-avatar.md) | Switch animal icons (cat, elephant, ape, dog) and custom avatars |
 | [Third-Party Models](docs/en/guide/third-party-models.md) | Using OpenAI / DeepSeek / Ollama and other non-Anthropic models |
 | [Memory System](docs/memory/01-usage-guide.md) | Cross-session persistent memory usage and implementation |
 | [Multi-Agent System](docs/agent/01-usage-guide.md) | Agent orchestration, parallel tasks and Teams collaboration |
 | [Skills System](docs/skills/01-usage-guide.md) | Extensible capability plugins, custom workflows and conditional activation |
 | [Channel System](docs/en/channel/01-channel-system.md) | Remote Agent control via Telegram/Feishu/Discord IM platforms |
 | [Computer Use](docs/en/features/computer-use.md) | Desktop control (screenshots, mouse, keyboard) — [Architecture](docs/en/features/computer-use-architecture.md) |
-| [Global Usage](docs/en/guide/global-usage.md) | Run claude-haha from any directory |
+| [Global Usage](docs/en/guide/global-usage.md) | Run claude-easiest from any directory |
 | [FAQ](docs/en/guide/faq.md) | Common error troubleshooting |
 | [Source Fixes](docs/en/reference/fixes.md) | Fixes compared with the original leaked source |
 | [Project Structure](docs/en/reference/project-structure.md) | Code directory structure |
