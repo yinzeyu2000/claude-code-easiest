@@ -1,7 +1,7 @@
 # Claude Code Easiest
 
 <p align="center">
-  <img src="docs/images/banner-v2.jpg" alt="Claude Code Easiest Banner" width="800">
+  <img src="docs/images/banner.jpg" alt="Claude Code Easiest Banner" width="800">
 </p>
 
 <div align="center">
