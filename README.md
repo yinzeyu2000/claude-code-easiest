@@ -26,7 +26,8 @@
 </p>
 
 ---
-
+## 项目地址：https://github.com/yinzeyu2000/claude-code-easiest
+欢迎star 提issue或参与讨论!
 ## 功能
 
 - 完整的 Ink TUI 交互界面（与官方 Claude Code 一致）
