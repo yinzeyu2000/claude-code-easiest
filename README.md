@@ -1,5 +1,9 @@
 # Claude Code Easiest
 
+<p align="center">
+  <img src="docs/images/banner-v2.jpg" alt="Claude Code Easiest Banner" width="800">
+</p>
+
 <div align="center">
 
 [![GitHub Stars](https://img.shields.io/github/stars/yinzeyu2000/claude-code-easiest?style=social)](https://github.com/yinzeyu2000/claude-code-easiest/stargazers)
